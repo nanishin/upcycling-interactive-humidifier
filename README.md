@@ -12,7 +12,7 @@ Let's make upcycling interactive humidifier with legacy humidifier and openHW
 # HOWTO
 
 ## 1. Upload combined upcycling-interactive-humidifier.ino to Arduino Nano.
-
+![upload upcycling interactive humidifier ino](/media/upload_upcycling_interactive_humidifier_ino.png)
 ## 2. Install neopixel strip to wall for humidity state notice with ambient color.
 
 ## 3. Install DHT11 sensor to wall for gathering humidity.
@@ -28,20 +28,20 @@ Let's make upcycling interactive humidifier with legacy humidifier and openHW
 ![home humidity board](/media/home_humidity_board.png)
 
 ### Ambient Color Notice
-- Humidity < 20% : Red Color
+- Humidity <= 20% : Red Color
 
-- 20% <= Humidity < 40% : Yellow Color
+- 20% < Humidity <= 40% : Yellow Color
 
-- 40% <= Humidity < 60% : Green Color
+- 40% < Humidity <= 60% : Green Color
 
-- 60% <= Humidity < 80% : Cyan Color
+- 60% < Humidity <= 80% : Cyan Color
 
-- 80% <= Humidity : Blue Color
+- 80% < Humidity : Blue Color
 
 ### Humidifier Relay Control
-- Humidity < 50% : Turn On Humidifier
+- Humidity <= 50% : Turn On Humidifier
 
-- Humidity >= 50% : Turn Off Humidifier
+- Humidity > 50% : Turn Off Humidifier
 
 ![humidity red state](/media/humidity_red_state.png)
 ![humidity yellow state](/media/humidity_yellow_state.png)
