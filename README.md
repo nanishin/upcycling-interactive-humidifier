@@ -10,6 +10,7 @@ Let's make upcycling interactive humidifier with legacy humidifier and openHW
 ![legacy humidifier](/media/legacy_humidifier.png)
 
 # HOWTO
+![fritzing circuit](/media/upcycling-interactive-humidifier.png)
 
 ## 1. Upload combined upcycling-interactive-humidifier.ino to Arduino Nano.
 ![upload upcycling interactive humidifier ino](/media/upload_upcycling_interactive_humidifier_ino.png)
